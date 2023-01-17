@@ -1,11 +1,31 @@
 {
     "intents": [
         {
-            "tag": "saludos",
+            "tag": "greetings",
             "patterns": [
                 "hola",
                 "buenos dias",
                 "buenas tardes",
+                "buenas noches",
+                "como estas",
+                "hay alguien ahi?",
+                "hey",
+                "saludos",
+                "que tal"
+            ],
+            "responses": [
+                "hola soy Uni-BOT , en que puedo ayudarte"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "admision",
+            "patterns": [
+                "admision",
+                "Cual es el proceso de admision",
+                "Como funciona el proceso de admision",
                 "buenas noches",
                 "como estas",
                 "hay alguien ahi?",
