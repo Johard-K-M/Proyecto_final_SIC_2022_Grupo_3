@@ -1,7 +1,7 @@
 {
     "intents": [
         {
-            "tag": "greetings",
+            "tag": "saludos",
             "patterns": [
                 "hola",
                 "buenos dias",
@@ -14,7 +14,7 @@
                 "que tal"
             ],
             "responses": [
-                "hola soy Uni-BOT , en que puedo ayudarte"
+                "hola soy Uni-BOT , \u00bfen que puedo ayudarte?"
             ],
             "context": [
                 ""
@@ -26,15 +26,71 @@
                 "admision",
                 "Cual es el proceso de admision",
                 "Como funciona el proceso de admision",
-                "buenas noches",
-                "como estas",
-                "hay alguien ahi?",
-                "hey",
-                "saludos",
-                "que tal"
+                "que pasos se deben seguir para la admision",
+                "como ingreso a la universidad",
+                "Como hago la admision",
+                "como inicio el procesos de admision"
             ],
             "responses": [
-                "hola soy SIC-BOT , en que puedo ayudarte"
+                "Los pasos para seguir el proceso de admisi\u00f3n son los siguientes:\n                                 Paso 1: Realizar la Inscripci\u00f3n en L\u00ednea.\n                                 Paso 2: Pagar la Prueba de Ubicaci\u00f3n.\n                                 Paso 3: Participar en la Aplicaci\u00f3n de la Prueba de Ubicaci\u00f3n.\n                                 Paso 4: Consultar Resultados.\n                                 Paso 5: Pagar la Prueba de Ingl\u00e9s, solo los aspirantes a las carreras de Aviaci\u00f3n y la carrera de Licenciatura  en Comunicaci\u00f3n Ejecutiva Biling\u00fce.\n                                 Paso 6: Matricular el Programa de Verano.\n                                 Para m\u00e1s informaci\u00f3n, ingrese al siguiente enlace https://utp.ac.pa/proceso-de-admision"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Inscripcion",
+            "patterns": [
+                "inscripcion",
+                "a donde me inscribo",
+                "como me inscribo",
+                "Como me inscribo en la universidad",
+                "como hago el proceso de inscripcion en linea",
+                "que hago para inscribirme"
+            ],
+            "responses": [
+                "Todo estudiante que aspire a realizar la Prueba de Ubicaci\u00f3n debe inscribirse.\n                 Realice la inscripci\u00f3n en: http://matricula.utp.ac.pa/siu/paso1.aspx.\n                 Para m\u00e1s informaci\u00f3n sobre el proceso de inscripci\u00f3n, haga click en el siguiente enlace https://utp.ac.pa/proceso-de-admision "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Costos",
+            "patterns": [
+                "Cuanto cuesta",
+                "Cuanto cuesta la inscripcion",
+                "Cuanto cuesta la prueba",
+                "Costo",
+                "Costo de la prueba de admision",
+                "Costo de admisi\u00f3n",
+                "Cuanto cuesta la admision",
+                "Cuanto cuest la prueba de admision"
+            ],
+            "responses": [
+                "Los costos de las pruebas de admisi\u00f3n son los siguientes:\n\tPago de la Prueba de Ubicaci\u00f3n (B/. 30.00)\n\tPago de la Prueba de Ingl\u00e9s (B/. 15.00)\n\tPago de la Prueba Psicol\u00f3gica (B/. 10.00).\n\nLa Prueba de Ubicaci\u00f3n se paga de forma presencial en las cajas de la UTP de acuerdo a la CITA DE PAGO que se le proporcion\u00f3 al completar su inscripci\u00f3n.\n\nLa Prueba de Ubicaci\u00f3n se paga de forma presencial en las cajas de la UTP de acuerdo a la CITA DE PAGO que se le proporcion\u00f3 al completar su inscripci\u00f3n."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "PruebaDeUbicacion",
+            "patterns": [
+                "donde es la prueba",
+                "cuando es la prueba",
+                "donde es el examen",
+                "cuando es el examen",
+                "cuando es la convocatoria",
+                "donde es la convocatoria",
+                "fecha de la prueba",
+                "hora de la prueba",
+                "fecha del examen",
+                "hora del examen",
+                "Devolucion de dinero de la prueba"
+            ],
+            "responses": [
+                "Debe asistir a la Prueba de Ubicaci\u00f3n en la fecha y hora que indica su recibo de pago, de lo contrario, perder\u00e1 su prueba, pero podr\u00e1 aplicar para la convocatoria siguiente, realizando el pago correspondiente. La UTP no har\u00e1 devoluci\u00f3n del dinero si no asiste en la fecha y hora programada.\n\nPara conocer la fecha y hora de la aplicaci\u00f3n de su prueba, ingrese al sistema de matr\u00edcula: matricula.utp.ac.pa, introduzca su c\u00e9dula, contrase\u00f1a y haga clic en \"Buscar Aula\". Para mayor informacion ingrese a https://www.utp.ac.pa/informacion-sobre-las-pruebas"
             ],
             "context": [
                 ""
@@ -70,7 +126,7 @@
                 "fue de ayuda",
                 "gracias por la ayuda",
                 "muy agradecido",
-                "gracias por su tiempo",
+                "   gracias por su tiempo",
                 "ty"
             ],
             "responses": [
